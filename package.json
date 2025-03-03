@@ -1,7 +1,7 @@
 {
-  "name": "techutsav-backend",
+  "name": "backend25",
   "version": "1.0.0",
-  "description": "Backend for TechUtsav 2024",
+  "description": "Backend for TechUtsav 2025",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/venkadesh004/techutsav-backend.git"
+    "url": "git+https://github.com/TechutsavTeam/backend25.git"
   },
   "keywords": [
-    "techutsav24"
+    "techutsav25"
   ],
   "author": "venkadesh004",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/venkadesh004/techutsav-backend/issues"
+    "url": "https://github.com/TechutsavTeam/backend25/issues"
   },
-  "homepage": "https://github.com/venkadesh004/techutsav-backend#readme",
+  "homepage": "https://github.com/TechutsavTeam/backend25#readme",
   "dependencies": {
     "@emailjs/nodejs": "^2.2.0",
     "bcryptjs": "^2.4.3",
