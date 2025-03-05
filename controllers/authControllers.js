@@ -40,6 +40,7 @@ module.exports.signup_post = async (req, res) => {
     department,
     transactionNumber,
     selectedDepartment,
+    transactionScreenshot,
   } = req.body;
   try {
     await User.create({
@@ -50,7 +51,9 @@ module.exports.signup_post = async (req, res) => {
       collegeName,
       department,
       transactionNumber,
+      transactionScreenshot,
       selectedDepartment,
+      transactionScreenshot,
     }).then(async (result) => {
       const token = createToken({ user: result._id });
       var params = {

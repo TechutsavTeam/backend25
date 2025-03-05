@@ -39,6 +39,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     default: ""
   },
+  transactionScreenshot: {
+    type: String, // Storing image as binary data
+    required: [true, "Transaction Screenshot is Required"],
+  },
   password: {
     type: String,
     required: [true, "Password is Required"],

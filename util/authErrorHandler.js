@@ -30,6 +30,11 @@ module.exports.handleError = (err, prop) => {
     errors.password = "This Password is Invalid";
     return errors;
   }
+
+  if (err.message === "Transaction Screenshot is Required") {
+    errors.password = "Screenshot is Invalid";
+    return errors;
+  }
   
   if (err.message.includes("user validation failed")) {
     Object.values(err.errors).forEach(({ properties }) => {
